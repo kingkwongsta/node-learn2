@@ -20,4 +20,5 @@ const contactSchema = mongoose.Schema(
   }
 );
 
+//first paramater is the name of MongoDB Collection - looks for lowerclase plural version
 module.exports = mongoose.model("Contact", contactSchema);
