@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+const test =
+  "mongodb+srv://admin:admin@mongocluster.5ippwgz.mongodb.net/contacts?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
