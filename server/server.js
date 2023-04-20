@@ -11,9 +11,10 @@ const port = 5000;
 
 //middleware
 app.use(express.json()); //parser
-app.use("/api/contacts", require("./routes/contactRoutes"));
+// app.use("/api/contacts", require("./routes/contactRoutes"));
+app.use("/api/restaurants", require("./routes/restaurantRoutes"));
 app.use(errorHandler);
 
 app.listen(port, () => {
-  console.log("hello");
+  console.log("node connected");
 });
